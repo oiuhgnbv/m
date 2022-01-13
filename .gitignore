@@ -1,18 +1,13 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+import time
+import threading 
+from pynput.mouse import button, Controller  
+from pynput.keyboard Import Listener, KeyCode
 
-# Other files and folders
-.settings/
+delay - 0.0001
+button - Botton.Left 
+start_stop_key = KeyCode(char-'a') 
+Stop_Key - KeyCode(char-'b') 
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+Class ClickMouse(threading.thread):  
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+def  _init_(self, decay
